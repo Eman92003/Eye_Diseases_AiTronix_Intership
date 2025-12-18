@@ -1,4 +1,4 @@
-**AiTronix Internship Project**
+# **AiTronix Internship Project**
 
 This repository contains a Jupyter Notebook developed during the **AiTronix AI Internship**.  
 The project focuses on building and comparing multiple deep learning models for **eye disease image classification**.
@@ -18,7 +18,7 @@ Each model was trained, validated, and compared based on performance metrics to 
 | Model 2 | Transfer Learning (VGG16) | **90%** |
 | Model 3 | Transfer Learning (VGG16 unfreezed) | **91%** |
 
-> **Note:** Accuracy values are obtained from the validation set and are documented inside the notebook.
+**Note:** Accuracy values are obtained from the validation set and are documented inside the notebook.
 
 ---
 
@@ -28,7 +28,7 @@ Each model was trained, validated, and compared based on performance metrics to 
 - **Size:** ~4000 images  
 - **Classes:** 4 eye disease categories (cataract,diabetic_retinopathy,glaucoma,normal)  
 - **Data Augmentation:** Applied **light augmentation only**.
-  > Care was taken to **avoid aggressive transformations** due to the medical nature of the images.
+Care was taken to **avoid aggressive transformations** due to the medical nature of the images.
 
 ---
 
